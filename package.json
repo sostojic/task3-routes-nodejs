@@ -1,0 +1,22 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Make an Express application in NodeJS on port 3000  which will have 3 routes:\r 1. Root route (http://localhost:3000)\r 2. About us route (http://localhost:3000/about-us)\r 3. 404 - everything else that isn't \"root\" or \"about us\" route",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sostojic/task3-routes-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sostojic/task3-routes-nodejs/issues"
+  },
+  "homepage": "https://github.com/sostojic/task3-routes-nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
